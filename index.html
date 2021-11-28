@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="page" id="page" style="background-color:#884444">
+        <img class="magicClock" src="./public/clock.png"/>
+        <h1 class="magicText">Click on the magic clock</h1>
+    </div>
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <div class="container">
+        <h1 class="name"  id="name" style="display: none;"></h1>
+        <h2 class="wishes">Wishes you</h2>
+        <div class="date">
+            <span class="days"></span> days, 
+            <span class="hours"></span> hours, 
+            <span class="mins"></span> Minutes, 
+            <span class="secs"></span> Seconds, Before
+        </div>
+        <div class="image-section">
+            <h1 class="qoute">
+                Happy New Year 2022
+            </h1>
+            <img src="./public/new-year-illustration.png" alt="Birthday illustration" class="illus">
+        </div>
+
+
+        <div class="content">
+            <div class="content__container">
+              
+              <ul class="content__container__list">
+                <li class="content__container__list__item" style="color:#e67e22 ">May Light always surround you, </li>
+                <li class="content__container__list__item" style="color:#e74c3c ">Hope kindle and rebound you,</li>
+                <li class="content__container__list__item" style="color:#3498db ">Hope kindle and rebound you,</li>
+                <li class="content__container__list__item" style="color:#16a085 ">Hope kindle and rebound you</li>
+              </ul>
+            </div>
+          </div>
+        <h1 class="exclaim">Happy New Year !!!</h1>
+        <div class="input-section">
+            <input type="text" placeholder="Enter your name" class="inputName" id="inputName" required>
+            <button type="submit" class="button" id="button">See</button>
+            <script src="./scripts/script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
